@@ -1,6 +1,4 @@
-#!/usr/bin/env python
 #-*- coding: utf-8 -*-
-__author__ = 'hstking hstking@hotmail.com'
 
 class PrintTable(object):
     '''打印九九乘法表 '''
@@ -12,7 +10,7 @@ class PrintTable(object):
     def print99(self):
         for i in range(1, 10):
             for j in range(1, i + 1):
-                print("%d*%d=%2d" % (i, j, i * j), end="  ")
+                print("%d*%d=%2d" % (i, j, i * j), end="  "),
             print(' ')
 
 if __name__ == '__main__':
