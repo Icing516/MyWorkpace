@@ -1,5 +1,5 @@
 #coding:utf-8
-
+#python3.5环境
 
 class PrintTable(object):
 	'''打印九九乘法表 '''
