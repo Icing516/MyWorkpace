@@ -1,8 +1,8 @@
 #-*- coding: utf-8 -*-
 
 class PrintTable(object):
-    '''打印九九乘法表 '''
-
+    '''打印九九乘法表
+    for循环里面用了一些方式处理换行问题'''
     def __init__(self):
         print(u'开始打印9x9的乘法表格')
         self.print99()
