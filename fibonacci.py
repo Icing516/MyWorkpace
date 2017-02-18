@@ -14,7 +14,7 @@ class Fibonacci(object):
         print('得到的fibonacci数列为:\n %s ' %self.fList)
 
     def checkLen(self,lenth):
-        lenList = map(str,range(3,51))
+        lenList = map(str,range(3,51))  #map函数，将range产生的数列以字符串的形式输出
         if lenth in lenList:
             print('输入的长度符合标准，继续运行')
         else:
