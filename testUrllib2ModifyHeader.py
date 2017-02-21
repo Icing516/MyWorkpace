@@ -2,8 +2,8 @@
 
 import urllib2
 import userAgents
-
 '''userAgents.py是个自定义的模块，位置处于当前目录下'''
+
 
 class urllib2ModifyHeader(object):
     '''使用urllib2模块修改header'''
