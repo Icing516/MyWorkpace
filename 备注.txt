@@ -1,0 +1,6 @@
+simpleCrawlerNowMoive.py这个爬虫代码没有调试通过
+网站采用动态加载技术，初步判断是要先获取首页：
+http://www.jycinema.com/frontUIWebapp/templates/default/index.html
+的cookie信息，才能请求到包含电影信息的链接里面的内容
+http://www.jycinema.com/frontUIWebapp/appserver/cinCinemaFilmViewService/findFilm
+
